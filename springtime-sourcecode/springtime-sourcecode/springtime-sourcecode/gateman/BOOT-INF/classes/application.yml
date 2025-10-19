@@ -1,0 +1,24 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: gateman
+  cloud:
+    gateway:
+      server:
+        webflux:
+          routes:
+            - id: test
+              uri: no://op
+              predicates:
+                - Path=/test/**
+
+management:
+  endpoint:
+    gateway:
+      access: unrestricted
+  endpoints:
+    web:
+      exposure:
+        include: health,info,gateway

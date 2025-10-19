@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: newsman
+server:
+  port: 8082
+
+jwt:
+  secret: fake_secret_for_testing
+  expiration: 3600000
