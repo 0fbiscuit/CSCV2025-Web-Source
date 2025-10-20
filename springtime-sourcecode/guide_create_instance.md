@@ -11,7 +11,7 @@ Click `Generate` to obtain the result as shown in the image:
 
 > The access token can be reused. Please save it so you can use it each time you create an instance!
 
-### Try this TOKEN: **4d2a76129dc58fca8af0bedfda31707f0f7ecbe0a856c0c5ec65dadc24efefe7**
+ <!-- ### Try this TOKEN: **4d2a76129dc58fca8af0bedfda31707f0f7ecbe0a856c0c5ec65dadc24efefe7** -->
 
 ### Step 3: Use `nc` (for Linux) or `ncat` (for Windows) to connect to IP `42.96.60.65` on port `36000`
 
@@ -44,4 +44,5 @@ Use this program to solve the challenge: https://drive.google.com/file/d/1K-0n1s
 ![image](https://i.imgur.com/qfLyIl7.png)
 
 Good luck and have fun!
+
 
